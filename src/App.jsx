@@ -44,7 +44,7 @@ function App() {
         <Route path='/search/:query' element={<Explore />}></Route>
         <Route path="*"  element={<PageNotFound />}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
    
   )
