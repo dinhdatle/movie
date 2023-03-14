@@ -16,7 +16,7 @@ import CircleRating from '../circleRating/CircleRating';
 import Genres from "../genres/Genres";
 
 
-const Carousel = ({data,loading}) => {
+const Carousel = ({data,loading,endpoint}) => {
     const carouseContainer = useRef();
     const {url} = useSelector((state)=> state.home)
     const navigate = useNavigate()
