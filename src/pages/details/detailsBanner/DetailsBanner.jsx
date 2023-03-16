@@ -27,7 +27,6 @@ const DetailsBanner = ({video,crew}) => {
     const {url} = useSelector((state)=>state.home)
 
     const _genres = data?.genres?.map((g) => g.id)
-    console.log(_genres)
 
     const toHoursAndMinutes = (totalMinutes) => {
         const hours = Math.floor(totalMinutes / 60);
