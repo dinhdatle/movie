@@ -120,6 +120,7 @@ const DetailsBanner = ({video,crew}) => {
                                             ))}</span>
                                         </div>
                                     )}
+                                    
                                 </div>
                             </div>
                             <VideoPopup show={show} setShow={setShow} videoId={videoId} setVideoId={setVideoId}/>
