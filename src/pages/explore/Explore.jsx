@@ -29,10 +29,12 @@ const Explore = () => {
     const [loading, setLoading] = useState(false);
     const [genre, setGenre] = useState(null);
     const [sortby, setSortby] = useState(null);
+    
     const { mediaType } = useParams();
 
     const { data: genresData } = useFetch(`/genre/${mediaType}/list`);
     
+
 
     const fetchInitialData = () => {
         setLoading(true);
